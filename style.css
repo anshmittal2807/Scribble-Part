@@ -1,0 +1,106 @@
+
+
+* {
+    margin: 0;padding: 0;
+    /* background-color:#ECDFCC */
+}
+ p{
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+#scribble_pad {
+     font-family: "Ga Maamli", sans-serif;
+     font-size: xx-large;
+     margin-right: 100px;
+     margin-right: 70vw;
+
+ }
+ 
+ .head_icon{
+    height: 50px;
+    width: 50px;
+ }
+ #icon {
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+    
+    
+ }
+
+ 
+ #about_us {
+    margin-left: 30px;
+    height:30px;
+    width: 30px;
+    transform: translateY(-30px); 
+}
+@media (max-width: 600px) {
+    /* Resize header icons */
+    .head_icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* Resize the main logo/icon */
+    #icon {
+        width: 70px;
+        height: 70px;
+        margin-left: 50px; /* Adjusted margin to make space */
+    }
+
+    /* Styling for About Us icon */
+    /* #about_us {
+        margin-left: 30px;
+        height: 30px;
+        width: 30px;
+       
+    } */
+
+    /* Styling for Scribble Pad text */
+    #scribble_pad {
+        font-family: "Ga Maamli", sans-serif;
+        font-size: xx-large; /* Increase the font size */
+        text-align: center; /* Center the text */
+        margin-right: 0; /* Removed conflicting margin */
+        margin-left: 0; /* Added margin-left to center the text */
+    }
+
+    /* You can also add some margin adjustments for better positioning */
+    #name {
+        font-size: 16px; /* Adjust the size of the "Untitled" text */
+        margin-top: 10px; /* Add some margin to space it out */
+    }
+
+
+} 
+
+
+#board {
+  
+    background-color: black;
+        margin: 10px;
+        border-radius: 20px;
+}
+.board_holder {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 3vw
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-70px);
+    
+}
+ .color {
+ margin-right: 50px;
+ border-radius: 10px;
+ }
+ .color:hover {
+    background-color:antiquewhite
+}
+    
